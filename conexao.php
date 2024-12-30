@@ -1,12 +1,11 @@
 <?php
-//arquivo referente a conexao de Diego
-
+// arquivo referente a conexao de Diego
 class Conexao {
     private static $instancia = null;
     private $conexao = null;
 
     private $host = 'localhost';
-    private $dbname = 'prog_web_2024_2';
+    private $dbname = 'appagendaweb';
     private $username = 'root';
     private $password = '230719';
 
@@ -30,3 +29,4 @@ class Conexao {
         return self::$instancia->conexao;
     }
 }
+?>
